@@ -1,0 +1,118 @@
+body {
+    font: normal 14px/1.8 'Roboto', sans-serif;
+    background-image: url(/assets/gradient-violet-bg.jpg);
+
+}
+
+.logo-img {
+    margin-top: 2em;
+    margin-right: 100em;
+    width: 30%;
+    height: 30%;
+}
+
+.navbar {
+    z-index: 1;
+    font: normal 14px/1.8 'Roboto', sans-serif;
+    margin-right: auto;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    top: 50px;
+    right: 0px;
+    position: absolute;
+    display: inline-flex;
+    list-style-type: none;
+}
+
+a {
+    padding-right: 20px;
+    padding-left: 20px; 
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 500;
+    margin-bottom: 30px;
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+h4 {
+    text-align: center;
+}
+
+h5 {
+    text-align: right;
+}
+
+.laptop {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: center;
+    z-index: 2;
+    width: 40%;
+    max-height: 40%;
+    ;
+}
+
+.openKast {
+    border-radius: 10px;
+    background: #FE9000;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    transition: all 0.3s;
+    border: 1px solid transparent;
+    background-clip: padding-box;
+    color: #ffffff;
+}
+
+.headerOpenKast {
+   background: transparent;
+    border-radius: 3px;
+    height: 27px;
+    line-height: 27px;
+    width: 104px;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    box-shadow: inset 0px 0px 0px 1px #fff;
+    border: 1px solid transparent;
+    color: #ffffff !important;
+}
+
+.stylingTwo {
+    width:100%; 
+    float: left; 
+    background-color :white;
+}
+
+.logoImages {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 140px;
+    grid-row-gap: 80px;
+    align-items: center;
+    justify-content: space-around;
+    justify-items: center;
+    border-radius: 3px;
+    max-width: 880px;
+    margin: 0 auto 60px;
+}
