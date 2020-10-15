@@ -7,8 +7,8 @@ body {
 .logo-img {
     margin-top: 2em;
     margin-right: 100em;
-    width: 30%;
-    height: 30%;
+    width: 20%;
+    height: 20%;
 }
 
 .navbar {
@@ -28,6 +28,8 @@ body {
 a {
     padding-right: 20px;
     padding-left: 20px; 
+    text-decoration: none;
+    color: white;
 }
 
 h1 {
@@ -55,6 +57,7 @@ h4 {
 
 h5 {
     text-align: right;
+    padding-right: 60em;
 }
 
 .laptop {
@@ -69,14 +72,20 @@ h5 {
 }
 
 .openKast {
-    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    position: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    border-radius: 20px;
     background: #FE9000;
     font-weight: bold;
     text-align: center;
-    display: inline-block;
-    transition: all 0.3s;
+    display: block;
     border: 1px solid transparent;
-    background-clip: padding-box;
     color: #ffffff;
 }
 
@@ -93,7 +102,7 @@ h5 {
     letter-spacing: 1.5px;
     box-shadow: inset 0px 0px 0px 1px #fff;
     border: 1px solid transparent;
-    color: #ffffff !important;
+    color: #ffffff;
 }
 
 .stylingTwo {
